@@ -5,7 +5,7 @@
 | Report type | Phishing URL investigation |
 | Indicator | `http://lifeistruehealthservices[.]co[.]za/` |
 | Source | PhishTank submission 9554522 |
-| Checked | 4 to 5 November 2026 |
+| Checked | 4 - 5 November 2026 |
 | Evidence | E01 to E05, in the evidence log |
 | Related email | None |
 
