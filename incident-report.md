@@ -53,7 +53,7 @@ HTTPS on the effective URL does not make the page legitimate.
 If this URL showed up in a company mailbox, I would suggest:
 
 1. Block the URL and the domain at the web proxy and the email gateway.
-2. Search mail logs for the URL and the domain. Quarantine matches that were not opened, and note any that were.
+2. Search mail logs for messages containing the URL or domain and quarantine matching messages where possible. Check available click and web proxy logs for signs that users accessed the link.
 3. If a user says they entered a password, treat it as exposed. Reset it, revoke active sessions, and check sign-in logs for that account. Nothing in E01 to E05 shows that happened.
 4. Report the URL to the registrar abuse contact listed in WHOIS, and keep the PhishTank record as the reference. Safe Browsing already flags it in these results.
 5. Remind staff that a padlock and a familiar login page do not help if the address is wrong. Do not include the live link in that reminder.
