@@ -33,6 +33,8 @@ The account identifier in the login form on E02, and the registrant organisation
 
 Caption: PhishTank submission 9554522 was displayed as a verified phish and online. The page clock reads 5 November 2026, 3:32 AM UTC. The 100% bar is the vote split on that page, not a scanner score.
 
+![E01 — PhishTank verification](screenshots/01-phishtank-verification.png)
+
 - Record: submission 9554522
 - Page clock when viewed: 5 November 2026, 3:32 AM UTC
 - Submitted: 4 November 2026, 7:21 AM, by the account "garbage". That clock does not say UTC.
@@ -47,6 +49,8 @@ This is community verification. I am not treating the vote bar as a confidence r
 ## E02 — urlscan summary and captured page
 
 Caption: The urlscan result dated 5 November 2026, 03:36:31 UTC shows a Google-branded password prompt on `lifeistruehealthservices[.]co[.]za`. urlscan marks it potentially malicious and names Google as the targeted brand. The brand and the domain do not match. That mismatch is the main thing I observed.
+
+![E02 — urlscan summary and captured login page, account identifier redacted](screenshots/02-urlscan-summary.png)
 
 - Scan time shown: 5 November 2026, 03:36:31 UTC
 - Submitted manually. The result says scanned from CA. That is urlscan's system, not my browser opening the site.
@@ -63,6 +67,8 @@ Caption: The urlscan result dated 5 November 2026, 03:36:31 UTC shows a Google-b
 
 Caption: Page history shows an HTTP 307 from the HTTP URL to HTTPS on the same domain. The displayed title is "Sign in - Google Accounts". The same results page reports Google Safe Browsing as malicious. HTTPS only means the connection to that host was encrypted.
 
+![E03 — urlscan redirect and supporting details](screenshots/03-urlscan-redirect-details.png)
+
 - Page title shown: Sign in - Google Accounts
 - Page URL history: `http://lifeistruehealthservices[.]co[.]za/` then HTTP 307 to `https://lifeistruehealthservices[.]co[.]za/`
 - Google Safe Browsing, as reported on this page: Malicious
@@ -73,6 +79,8 @@ Caption: Page history shows an HTTP 307 from the HTTP URL to HTTPS on the same d
 ## E04 — VirusTotal
 
 Caption: The VirusTotal report dated 4 November 2026, 16:40:28 UTC shows 21 of 94 vendors flagging the URL. Visible labels are phishing or malicious. The IP matches urlscan. The 21 of 94 figure is a vendor count, not a probability.
+
+![E04 — VirusTotal detection results](screenshots/04-virustotal-detections.png)
 
 - Existing report. I did not run a new scan. Report time: 4 November 2026, 16:40:28 UTC
 - Detection count shown: 21 of 94
@@ -89,6 +97,8 @@ Caption: The VirusTotal report dated 4 November 2026, 16:40:28 UTC shows 21 of 9
 ## E05 — WHOIS
 
 Caption: WHOIS, looked up on 4 November 2026, shows the domain created on 27 March 2026 and updated on 28 October 2026. The screenshot has no lookup time of its own. Age and settings are context. They do not show who runs the site, or that it was compromised.
+
+![E05 — WHOIS registration details, registrant organisation redacted](screenshots/05-whois-registration.png)
 
 - Lookup date: 4 November 2026, from my own record. The screenshot is not timestamped.
 - Source: registry lookup for `.co.za`, not PhishTank
